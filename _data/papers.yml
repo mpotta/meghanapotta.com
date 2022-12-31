@@ -1,0 +1,24 @@
+-
+    title: "How learning unfolds in the brain: toward an optimization view"
+    authors: "<b>JA Hennig</b>, ER Oby, DM Losey, AP Batista*, BM Yu*, SM Chase*"
+    journal: "Neuron"
+    volume: ""
+    year: 2021
+    url: https://www.cell.com/neuron/fulltext/S0896-6273(21)00677-2
+    image: Hennig2021b
+    imagetype: png
+    briefly: "In this perspective, we consider the idea that learning in the brain can be described in terms of optimization, similar to learning in artificial neural networks (ANNs). We highlight three key features of how neural population changes with learning that differ from ANNs, suggesting refinements to this optimization view."
+    summary: "How do changes in the brain lead to learning? To answer this question, consider an artificial neural network (ANN), where learning proceeds by optimizing a given objective or cost function. This “optimization framework” may provide new insights into how the brain learns, as many idiosyncratic features of neural activity can be recapitulated by an ANN trained to perform the same task. Nevertheless, there are key features of how neural population activity changes throughout learning that cannot be readily explained in terms of optimization and are not typically features of ANNs. Here we detail three of these features: (1) the inflexibility of neural variability throughout learning, (2) the use of multiple learning processes even during simple tasks, and (3) the presence of large task-nonspecific activity changes. We propose that understanding the role of these features in the brain will be key to describing biological learning using an optimization framework."
+    highlight: true
+-
+    title: "Learning is shaped by abrupt changes in neural engagement"
+    authors: "<b>JA Hennig</b>, ..., AP Batista*, SM Chase*, BM Yu*"
+    journal: "Nature Neuroscience"
+    volume: "24(5), 727-736"
+    year: 2021
+    url: https://www.nature.com/articles/s41593-021-00822-8
+    image: Hennig2021
+    imagetype: gif
+    briefly: "We identified large fluctuations in neural population activity in motor cortex (M1) indicative of arousal-like internal state changes. These changes in neural activity helped to explain why animals learned some tasks more quickly than others."
+    summary: "Internal states such as arousal, attention, and motivation are known to modulate brain-wide neural activity, but how these processes interact with learning is not well understood. During learning, the brain must modify the neural activity it produces to improve behavioral performance. How do internal states affect the evolution of this learning process? Using a brain-computer interface (BCI) learning paradigm in non-human primates, we identified large fluctuations in neural population activity in motor cortex (M1) indicative of arousal-like internal state changes. These fluctuations drove population activity along dimensions we term neural engagement axes. Neural engagement increased abruptly at the start of learning, and then gradually retreated. In a BCI, the causal relationship between neural activity and behavior is known. This allowed us to understand how these changes impacted behavioral performance for different task goals. We found that neural engagement interacted with learning, helping to explain why animals learned some task goals more quickly than others."
+    highlight: true

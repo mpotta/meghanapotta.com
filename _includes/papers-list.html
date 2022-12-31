@@ -1,0 +1,16 @@
+
+<ul class="resume-item-list papers-list">
+{% for paper in site.data.papers %}
+  <li class="paper-item">
+    <span class="paper-title">&ldquo;{{ paper.title }}&rdquo;</span> <a href="{{ paper.url }}" class="paper-link">[link]</a> <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link">[pdf]</a><br>
+    <span style="font-size:smaller;">
+      <span style="color: gray;">{{ paper.authors }}</span>
+      <br><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})
+  	</span>
+  	<div class="paper-content">
+		<img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="200px" class="paper-image">
+		<p class="paper-brief"><i>Summary:</i> {{ paper.briefly }}</p><br/>
+	</div>
+  </li><br>
+{% endfor %}
+</ul>
